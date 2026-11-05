@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UrbanClap | Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="dashboard-layout">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="sidebar-logo">
+                UrbanClap
+            </div>
+
+            <div class="provider-info">
+                <div class="provider-avatar">
+                    SP
+                </div>
+
+                <div>
+                    <strong>Service Provider</strong>
+                    <small>Provider Account</small>
+                </div>
+            </div>
+
+            <nav class="sidebar-menu">
+
+                <a href="dashboard.html" class="menu-item active">
+                    <span>▦</span>
+                    Dashboard
+                </a>
+
+                <a href="bookings.html" class="menu-item">
+                    <span>▤</span>
+                    Bookings
+                </a>
+
+                <a href="profile.html" class="menu-item">
+                    <span>◯</span>
+                    Profile
+                </a>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+
+                <a href="index.html" class="menu-item logout">
+                    <span>↪</span>
+                    Logout
+                </a>
+
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+
+            <!-- TOP BAR -->
+            <header class="topbar">
+
+                <div>
+                    <h1>Dashboard</h1>
+                    <p>Welcome back! Here's what's happening today.</p>
+                </div>
+
+                <div class="topbar-profile">
+
+                    <div class="notification">
+                        🔔
+                        <span class="notification-dot"></span>
+                    </div>
+
+                    <div class="profile-avatar">
+                        SP
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- STATS -->
+            <section class="stats-grid">
+
+                <div class="stat-card">
+
+                    <div class="stat-icon purple">
+                        📋
+                    </div>
+
+                    <div>
+                        <p>Total Bookings</p>
+                        <h2>124</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon orange">
+                        ⏳
+                    </div>
+
+                    <div>
+                        <p>Pending</p>
+                        <h2>18</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon blue">
+                        ⚙
+                    </div>
+
+                    <div>
+                        <p>In Progress</p>
+                        <h2>10</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon green">
+                        ✓
+                    </div>
+
+                    <div>
+                        <p>Completed</p>
+                        <h2>96</h2>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- RECENT BOOKINGS -->
+            <section class="bookings-section">
+
+                <div class="section-header">
+
+                    <div>
+                        <h2>Recent Bookings</h2>
+                        <p>Manage your latest service bookings</p>
+                    </div>
+
+                    <a href="bookings.html" class="view-all">
+                        View All →
+                    </a>
+
+                </div>
+
+
+                <div class="table-container">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+                                <th>Customer</th>
+                                <th>Service</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Status</th>
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>
+                                    <div class="customer">
+                                        <div class="customer-avatar">RK</div>
+
+                                        <div>
+                                            <strong>Rahul Kumar</strong>
+                                            <small>rahul@example.com</small>
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>Home Cleaning</td>
+
+                                <td>12 Sep 2026</td>
+
+                                <td>10:00 AM</td>
+
+                                <td>
+                                    <span class="status pending">
+                                        Pending
+                                    </span>
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    <div class="customer">
+                                        <div class="customer-avatar">AS</div>
+
+                                        <div>
+                                            <strong>Anjali Sharma</strong>
+                                            <small>anjali@example.com</small>
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>AC Service</td>
+
+                                <td>12 Sep 2026</td>
+
+                                <td>12:30 PM</td>
+
+                                <td>
+                                    <span class="status confirmed">
+                                        Confirmed
+                                    </span>
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    <div class="customer">
+                                        <div class="customer-avatar">VM</div>
+
+                                        <div>
+                                            <strong>Vikas Mehta</strong>
+                                            <small>vikas@example.com</small>
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>Electrician</td>
+
+                                <td>13 Sep 2026</td>
+
+                                <td>09:00 AM</td>
+
+                                <td>
+                                    <span class="status progress">
+                                        In Progress
+                                    </span>
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    <div class="customer">
+                                        <div class="customer-avatar">PS</div>
+
+                                        <div>
+                                            <strong>Priya Singh</strong>
+                                            <small>priya@example.com</small>
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>Plumbing</td>
+
+                                <td>13 Sep 2026</td>
+
+                                <td>03:00 PM</td>
+
+                                <td>
+                                    <span class="status completed">
+                                        Completed
+                                    </span>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

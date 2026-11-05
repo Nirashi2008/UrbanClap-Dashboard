@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UrbanClap | Profile</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="dashboard-layout">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="sidebar-logo">
+                UrbanClap
+            </div>
+
+            <div class="provider-info">
+
+                <div class="provider-avatar">
+                    SP
+                </div>
+
+                <div>
+                    <strong>Service Provider</strong>
+                    <small>Provider Account</small>
+                </div>
+
+            </div>
+
+            <nav class="sidebar-menu">
+
+                <a href="dashboard.html" class="menu-item">
+                    <span>▦</span>
+                    Dashboard
+                </a>
+
+                <a href="bookings.html" class="menu-item">
+                    <span>▤</span>
+                    Bookings
+                </a>
+
+                <a href="profile.html" class="menu-item active">
+                    <span>◯</span>
+                    Profile
+                </a>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+
+                <a href="index.html" class="menu-item logout">
+                    <span>↪</span>
+                    Logout
+                </a>
+
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+
+            <!-- TOP BAR -->
+            <header class="topbar">
+
+                <div>
+                    <h1>My Profile</h1>
+                    <p>Manage your service provider information.</p>
+                </div>
+
+                <div class="topbar-profile">
+
+                    <div class="notification">
+                        🔔
+                        <span class="notification-dot"></span>
+                    </div>
+
+                    <div class="profile-avatar">
+                        SP
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- PROFILE CARD -->
+            <section class="profile-section">
+
+                <div class="profile-card">
+
+                    <div class="profile-header">
+
+                        <div class="large-avatar">
+                            SP
+                        </div>
+
+                        <div>
+                            <h2>Service Provider</h2>
+                            <p>Home Services Professional</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="profile-divider"></div>
+
+
+                    <!-- PERSONAL INFORMATION -->
+                    <h3>Personal Information</h3>
+
+                    <div class="profile-grid">
+
+                        <div class="profile-field">
+
+                            <label>Full Name</label>
+
+                            <input
+                                type="text"
+                                value="Service Provider"
+                            >
+
+                        </div>
+
+
+                        <div class="profile-field">
+
+                            <label>Email Address</label>
+
+                            <input
+                                type="email"
+                                value="provider@urbanclap.com"
+                            >
+
+                        </div>
+
+
+                        <div class="profile-field">
+
+                            <label>Phone Number</label>
+
+                            <input
+                                type="tel"
+                                value="+91 98765 43210"
+                            >
+
+                        </div>
+
+
+                        <div class="profile-field">
+
+                            <label>Service Category</label>
+
+                            <select>
+
+                                <option>Home Cleaning</option>
+                                <option>AC Service</option>
+                                <option>Electrician</option>
+                                <option>Plumbing</option>
+                                <option>Salon Service</option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="profile-field">
+
+                            <label>Experience</label>
+
+                            <input
+                                type="text"
+                                value="5 Years"
+                            >
+
+                        </div>
+
+
+                        <div class="profile-field">
+
+                            <label>Location</label>
+
+                            <input
+                                type="text"
+                                value="New Delhi, India"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ABOUT -->
+                    <div class="about-provider">
+
+                        <h3>About</h3>
+
+                        <textarea rows="4">Professional service provider with 5 years of experience. I provide reliable and quality home services to customers.</textarea>
+
+                    </div>
+
+
+                    <!-- BUTTON -->
+                    <div class="profile-actions">
+
+                        <button
+                            class="save-btn"
+                            onclick="saveProfile()"
+                        >
+                            Save Changes
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
